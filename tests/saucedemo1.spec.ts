@@ -2,8 +2,8 @@ import { test, expect } from '@playwright/test';
 import { LoginPage } from './pageObjects/LoginPage';
 import { InventoryPage } from './pageObjects/InventoryPage';
 import { CartPage } from './pageObjects/CartPage';
-import { Checkout } from './pageObjects/checkout';
-import { Overview } from './pageObjects/overview';
+import { Checkout } from './pageObjects/Checkout';
+import { Overview } from './pageObjects/Overview';
 
 test('has title', async ({ page }, testinfo) => {
 
